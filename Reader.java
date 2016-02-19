@@ -129,9 +129,6 @@ public boolean distributed(ArrayList<String> file,ArrayList<String> menu)
 		int order_count=0;
 		int size=menu.size();
 
-		for(String line:file)
-			System.out.println(line);
-
 		String line=file.get(0);		
 		String firstLetter=Character.toString(line.charAt(0));
 		
