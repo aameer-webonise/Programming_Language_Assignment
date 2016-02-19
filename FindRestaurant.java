@@ -5,7 +5,6 @@ import java.util.HashMap;
 import java.util.Map;
 class FindRestaurant{
 public static void main(String[] arg) {
-		long t1=System.currentTimeMillis();
 		Reader read=new Reader();
 		boolean empty=false;
 		ArrayList<String> file=read.readFile(arg[0]);
@@ -53,7 +52,7 @@ public static void main(String[] arg) {
 			}
 		
 			System.out.println("=>"+min.getKey()+" "+min.getValue());
-			System.out.println(System.currentTimeMillis()-t1);
+			
 		
 }
 }
